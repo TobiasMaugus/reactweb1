@@ -9,8 +9,9 @@ export default createGlobalStyle`
     font-display: swap;
     src: url('assets/Teko.woff2') format('woff2');
     }
-    * {
+    *{
         font-family: "Teko";
+        background-color: #2B2323;
     }
 `   
 export const colors = {

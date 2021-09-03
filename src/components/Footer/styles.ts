@@ -27,6 +27,7 @@ export const Footer = styled.footer`
     margin: 10px;
     font-style: normal;
     font-weight: normal;
+    background-color: white;
     }
     .foruns{
         font-size: 50px;
@@ -35,6 +36,7 @@ export const Footer = styled.footer`
         margin: 10px;
         font-style: normal;
         font-weight: normal;
+        background-color: white;
     }
     .icones{
         font-size: 45px;
@@ -43,5 +45,6 @@ export const Footer = styled.footer`
         margin: 0px;
         font-style: normal;
         font-weight: normal;
+        background-color: white;
     }
 `

@@ -12,6 +12,11 @@ export const Header = styled.header`
     padding-right: 30px;
     width: auto;
     height: 130px;
+
+    *{
+        background-color: white;
+    }
+
     h1{
         display: flex;
         margin-block-start: 0.67em;
@@ -19,14 +24,16 @@ export const Header = styled.header`
         margin-inline-start: 0px;
         margin-inline-end: 0px;
         font-weight: bold;
+        background-color: white;
     }
     .anime{
         font-size: 60px;
         color: ${colors.roxo};
         font-family: "Teko", sans-serif;
         margin: 10px;
+        background-color: white;
     }
-    .logo{
+    .logo:not(*){
         position: relative;
         left: -30px;
     }
