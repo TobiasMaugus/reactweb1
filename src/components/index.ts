@@ -1,3 +1,7 @@
 export {default as Header} from "./Header"
 export {default as Footer} from "./Footer"
 export {default as Main} from "./Body"
+export {default as BodySup} from "./BodySup"
+export {default as FooterSup} from "./FooterSup"
+export {default as FooterForum} from "./FooterForum"
+export {default as BodyForum} from "./BodyForum"

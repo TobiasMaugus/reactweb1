@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
 
-export const Footer = styled.footer`
+export const FooterForum = styled.footer`
     nav {
     position: fixed;
     bottom:0;
@@ -20,7 +20,7 @@ export const Footer = styled.footer`
     padding-left: 30px;
     margin: 7px;
     }
-    .linksuporte{
+    .linkhome{
     font-size: 50px;
     color: ${colors.roxo};
     font-family: 'Teko', sans-serif;
@@ -33,11 +33,10 @@ export const Footer = styled.footer`
         font-size: 50px;
         color: ${colors.roxo};
         font-family: 'Teko', sans-serif;
-        margin: 10px;
+        margin: 0px;
         font-style: normal;
         font-weight: normal;
-        background-color: white;
-        margin: 0px;
+        background-color: white;    
     }
     .follow{
         font-size: 50px;

@@ -24,14 +24,14 @@ export const Header = styled.header`
         margin-inline-start: 0px;
         margin-inline-end: 0px;
         font-weight: bold;
-        background-color: white;
+        background-color: none;
     }
     .anime{
-        font-size: 60px;
+        font-size: 50px;
         color: ${colors.roxo};
         font-family: "Teko", sans-serif;
         margin: 10px;
-        background-color: white;
+        background-color: none;
     }
     .logo:not(*){
         position: relative;

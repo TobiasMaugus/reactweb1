@@ -1,10 +1,10 @@
 import * as S from './styles';
 
-const Footer = () => {
-    return(<S.Footer> 
+const FooterSup = () => {
+    return(<S.FooterSup> 
         <nav>   
-                <S.A href ="Suporte" target="_self">  
-                <h4 className="linksuporte">Suporte</h4>
+                <S.A href ="home" target="_self">  
+                <h4 className="linkhome">Home</h4>
                 </S.A>
                 <S.A href ="forum" target="_self">
                 <h4 className="foruns">Fóruns</h4>
@@ -13,7 +13,7 @@ const Footer = () => {
                 <h4 className="follow">Follow us</h4>
                 </S.A>
         </nav>
-    </S.Footer>)
+    </S.FooterSup>)
 }
 
-export default Footer
+export default FooterSup
