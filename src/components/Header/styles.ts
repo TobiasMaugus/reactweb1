@@ -55,3 +55,7 @@ export const Header = styled.header`
     margin: 10px;
     }
 `
+export const A = styled.a`
+    text-decoration: none;
+    background-color: none;
+`
