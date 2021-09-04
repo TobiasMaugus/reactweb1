@@ -3,7 +3,7 @@ import * as S from './styles';
 const FooterSup = () => {
     return(<S.FooterSup> 
         <nav>   
-                <S.A href ="home" target="_self">  
+                <S.A href ="/" target="_self">  
                 <h4 className="linkhome">Home</h4>
                 </S.A>
                 <S.A href ="forum" target="_self">
