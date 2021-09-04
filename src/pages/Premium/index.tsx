@@ -1,11 +1,11 @@
-import {Header} from "components";
+import {HeaderPremium} from "components";
 import { Footer } from "components";
 import { BodyPremium } from "components";
 
 const Premium = () =>{
     return (
         <>
-        <Header />
+        <HeaderPremium />
         <BodyPremium/>
         <Footer />
         
