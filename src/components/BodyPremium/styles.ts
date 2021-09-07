@@ -11,6 +11,7 @@ export const BodyPremium = styled.main`
     font-weight: normal;
     text-align: center;
     width: 100%;
+    vertical-align: middle;
     table-layout: fixed;
 }
 
@@ -21,6 +22,9 @@ export const BodyPremium = styled.main`
     background-color: #aeaeae;
     width: 33,3%;   
 }
+.planos th{
+    text-decoration: underline #4B0F83;
+}
 
 .planos a{
     text-decoration: none;
@@ -28,5 +32,19 @@ export const BodyPremium = styled.main`
     font-size: 50px;
     text-decoration: underline #4B0F83;
 }
+.acesso{
+    vertical-align: middle;
+    padding-left: 600px;
+    padding-right: 600px;
+    text-align: center;
+}
 
+`
+
+export const A = styled.a`
+    a{
+        text-decoration: none;
+        background-color: none;
+        display: block;
+    }
 `
