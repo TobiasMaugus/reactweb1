@@ -21,6 +21,8 @@ export const BodyPremium = styled.main`
     border-radius: 10px;
     background-color: #aeaeae;
     width: 33,3%;   
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .planos th{
     text-decoration: underline #4B0F83;
@@ -35,9 +37,13 @@ export const BodyPremium = styled.main`
 .acesso{
     vertical-align: middle;
     text-align: center;
-    margin-left: 630px;
-    margin-right: 630px;
-    top: -1000px
+    align-content: center;
+    margin: auto;
+    margin: auto;
+    text-decoration: none;
+    color: ${colors.black};
+    font-size: 50px;
+    text-decoration: underline #4B0F83;
 }
 
 padding-bottom: 100px;

@@ -20,10 +20,10 @@ const BodyPremium = () => {
                         <td>99,99 R$ por ano!<br />
                         <br />Assista sem anúncios!<br />Maior qualidade de vídeo!</td>
                     </tr>
-                    <S.A href ="planos" target="_self">
-                    <h1 className="acesso">Acesse</h1></S.A>
                 </tbody>    
             </table>
+            <S.A href ="planos" target="_self">
+                    <h1 className="acesso">Acesse</h1></S.A>
         </nav>
     </S.BodyPremium>)
 }
