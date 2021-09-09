@@ -34,9 +34,9 @@ export const BodyPremium = styled.main`
 }
 .acesso{
     vertical-align: middle;
-    padding-left: 677px;
-    padding-right: 677px;
     text-align: center;
+    margin-left: 677px;
+    margin-right: 677px;
 }
 
 `

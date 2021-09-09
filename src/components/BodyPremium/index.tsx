@@ -21,7 +21,7 @@ const BodyPremium = () => {
                         <br />Assista sem anúncios!<br />Maior qualidade de vídeo!</td>
                     </tr>
                     <S.A href ="planos" target="_self">
-                    <td className="acesso">Acesse<br /></td></S.A>
+                    <h1 className="acesso">Acesse</h1></S.A>
                 </tbody>    
             </table>
         </nav>
