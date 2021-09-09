@@ -35,8 +35,9 @@ export const BodyPremium = styled.main`
 .acesso{
     vertical-align: middle;
     text-align: center;
-    margin-left: 677px;
-    margin-right: 677px;
+    margin-left: 630px;
+    margin-right: 630px;
+    top: -1000px
 }
 
 padding-bottom: 100px;
