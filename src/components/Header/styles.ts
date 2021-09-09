@@ -9,10 +9,20 @@ export const Header = styled.header`
     border-radius: 10px;
     justify-content: space-between;
     align-items: center;
-    padding-right: 30px;
     width: auto;
     height: 130px;
-
+    @media (max-width: 1268px) {
+        .logo{
+            display: none;
+        }
+        .premium{
+            height: 70px;
+        }
+    }
+    @media (max-width: 1108px) {
+        display: block;
+        height: 250px;
+    }
     *{
         background-color: white;
     }

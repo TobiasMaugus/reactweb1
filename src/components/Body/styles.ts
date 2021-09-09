@@ -15,6 +15,7 @@ export const Main = styled.main`
     }
     .tabela th{
         text-decoration: ${colors.roxo};
+        text-decoration: underline ${colors.roxo};
     }
     .tabela td{
     border: 1px solid black;
@@ -30,5 +31,8 @@ export const Main = styled.main`
     main nav table{
         border-collapse: separate;
         border-spacing: 9px;
+    }
+    @media (max-width: 1108px) {
+        padding-bottom: 100px;
     }
 `

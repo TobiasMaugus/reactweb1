@@ -51,6 +51,15 @@ export const FooterSup = styled.footer`
         text-decoration: none;
         background-color: none;
     }
+    @media (max-width: 1108px) {
+        position: fixed;
+        bottom: 0px;
+    }
+    @media (max-width: 590px) {
+        .follow{
+            height: 50px;
+        }
+    }
 `
 export const A = styled.a`
     a{

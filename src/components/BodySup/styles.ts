@@ -40,7 +40,9 @@ export const Body = styled.main`
 input{
     border-radius: 6px;
 }
-
+@media (max-width: 1108px) {
+        padding-bottom: 100px;
+    }
 
 `
 

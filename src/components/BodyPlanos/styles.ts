@@ -33,6 +33,14 @@ input{
 
 padding-bottom: 100px;
 
+select{
+    background-color: ${colors.bgtables};
+    border-radius: 6px;
+}
+@media (max-width: 1108px) {
+        
+    }
+
 `
 
 export const F = styled.form`

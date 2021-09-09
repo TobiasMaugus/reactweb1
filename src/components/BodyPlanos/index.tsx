@@ -8,7 +8,7 @@ const BodyPlanos = () => {
                     Cadastro
                 </legend>
                 <label htmlFor="plano">
-                    Plano:
+                    Plano: 
                 </label>
                 <select id="plano" name="plano">
                     <option value="basico">Plano TM básico</option> 

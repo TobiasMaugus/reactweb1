@@ -52,6 +52,10 @@ export const Footer = styled.footer`
         text-decoration: none;
         background-color: none;
     }
+    @media (max-width: 1108px) {
+        position: fixed;
+        bottom: 0px;
+    }
 `
 export const A = styled.a`
     a{
