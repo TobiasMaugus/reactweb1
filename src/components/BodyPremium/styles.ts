@@ -39,6 +39,8 @@ export const BodyPremium = styled.main`
     margin-right: 677px;
 }
 
+padding-bottom: 100px;
+
 `
 
 export const A = styled.a`
