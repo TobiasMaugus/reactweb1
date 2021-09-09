@@ -12,7 +12,15 @@ export const HeaderPremium = styled.header`
     padding-right: 30px;
     width: auto;
     height: 130px;
-
+    @media (max-width: 1268px) {
+        .logo{
+            display: none;
+        }
+    }
+    @media (max-width: 1108px) {
+        display: block;
+        height: 250px;
+    }
     *{
         background-color: white;
     }
