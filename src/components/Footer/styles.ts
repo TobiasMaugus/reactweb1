@@ -56,7 +56,7 @@ export const Footer = styled.footer`
         position: fixed;
         bottom: 0px;
     }
-    @media (max-width: 590px) {
+    @media (max-width: 638px) {
         .follow{
             height: 50px;
         }
