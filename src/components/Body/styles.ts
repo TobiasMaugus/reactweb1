@@ -35,4 +35,11 @@ export const Main = styled.main`
     @media (max-width: 1108px) {
         padding-bottom: 100px;
     }
+    @font-face {
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/teko/v10/LYjCdG7kmE0gdQhfsCRgqA.woff2) format('woff2');
+    }
 `

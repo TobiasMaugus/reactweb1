@@ -7,7 +7,7 @@ export default createGlobalStyle`
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src: url('assets/Teko.woff2') format('woff2');
+    src: url(https://fonts.gstatic.com/s/teko/v10/LYjCdG7kmE0gdQhfsCRgqA.woff2) format('woff2');
     }
     *{
         font-family: "Teko";

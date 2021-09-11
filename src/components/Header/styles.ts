@@ -21,7 +21,7 @@ export const Header = styled.header`
     }
     @media (max-width: 1108px) {
         display: block;
-        height: 250px;
+        height: 275px;
     }
     *{
         background-color: ${colors.white};

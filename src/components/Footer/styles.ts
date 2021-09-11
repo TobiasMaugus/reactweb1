@@ -21,7 +21,7 @@ export const Footer = styled.footer`
     margin: 7px;
     }
     .linksuporte{
-    font-size: 50px;
+    font-size: 45px;
     color: ${colors.roxo};
     font-family: 'Teko', sans-serif;
     margin: 0px;
@@ -30,7 +30,7 @@ export const Footer = styled.footer`
     background-color: ${colors.white};
     }
     .foruns{
-        font-size: 50px;
+        font-size: 45px;
         color: ${colors.roxo};
         font-family: 'Teko', sans-serif;
         margin: 10px;
@@ -40,7 +40,7 @@ export const Footer = styled.footer`
         margin: 0px;
     }
     .follow{
-        font-size: 50px;
+        font-size: 45px;
         color: ${colors.roxo};
         font-family: 'Teko', sans-serif;
         margin: 0px;

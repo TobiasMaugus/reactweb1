@@ -21,7 +21,7 @@ export const FooterForum = styled.footer`
     margin: 7px;
     }
     .linkhome{
-    font-size: 50px;
+    font-size: 45px;
     color: ${colors.roxo};
     font-family: 'Teko', sans-serif;
     margin: 0px;
@@ -29,8 +29,8 @@ export const FooterForum = styled.footer`
     font-weight: normal;
     background-color: ${colors.white};
     }
-    .foruns{
-        font-size: 50px;
+    .suporte{
+        font-size: 45px;
         color: ${colors.roxo};
         font-family: 'Teko', sans-serif;
         margin: 0px;
@@ -39,7 +39,7 @@ export const FooterForum = styled.footer`
         background-color: ${colors.white};  
     }
     .follow{
-        font-size: 50px;
+        font-size: 45px;
         color: ${colors.roxo};
         font-family: 'Teko', sans-serif;
         margin: 0px;
