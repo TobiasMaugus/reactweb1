@@ -22,7 +22,7 @@ export const HeaderPremium = styled.header`
         height: 250px;
     }
     *{
-        background-color: white;
+        background-color: ${colors.white};
     }
 
     h1{

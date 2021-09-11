@@ -4,18 +4,18 @@ import { colors } from "styles/GlobalStyle"
 export const Body = styled.main`
     .titulosup{
     font-size: 40px;
-    color: #000000;
+    color: ${colors.black};
     font-family: 'Teko', sans-serif;
     font-style: bold;
-    text-decoration: underline #4B0F83;
+    text-decoration: underline ${colors.roxo};
     font-weight: normal;
     text-align: center;
 }
 .suporte{
     align-items: center;
-    background-color: #2B2323;
+    background-color: ${colors.bg};
     font-size: 40px;
-    color: #000000;
+    color: ${colors.black};
     font-family: 'Teko', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -29,7 +29,7 @@ export const Body = styled.main`
 }
 .supbotao{
     font-size: 25px;
-    color: #000000;
+    color: ${colors.black};
     font-family: 'Teko', sans-serif;
     font-style: normal;
     font-weight: normal;

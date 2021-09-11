@@ -5,7 +5,7 @@ export const BodyPremium = styled.main`
     .planos {
     display:table;
     font-size: 40px;
-    color: #000000;
+    color: ${colors.black};
     font-family: 'Teko', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -19,20 +19,20 @@ export const BodyPremium = styled.main`
     vertical-align: middle;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: #aeaeae;
+    background-color: ${colors.bgtables};
     width: 33,3%;   
     margin-bottom: 0;
     padding-bottom: 0;
 }
 .planos th{
-    text-decoration: underline #4B0F83;
+    text-decoration: underline ${colors.roxo};
 }
 
 .planos a{
     text-decoration: none;
     color: ${colors.black};
     font-size: 50px;
-    text-decoration: underline #4B0F83;
+    text-decoration: underline ${colors.roxo};
 }
 .acesso{
     vertical-align: middle;
@@ -43,7 +43,7 @@ export const BodyPremium = styled.main`
     text-decoration: none;
     color: ${colors.black};
     font-size: 50px;
-    text-decoration: underline #4B0F83;
+    text-decoration: underline ${colors.roxo};
 }
 
 padding-bottom: 100px;

@@ -27,7 +27,7 @@ export const FooterForum = styled.footer`
     margin: 0px;
     font-style: normal;
     font-weight: normal;
-    background-color: white;
+    background-color: ${colors.white};
     }
     .foruns{
         font-size: 50px;
@@ -36,7 +36,7 @@ export const FooterForum = styled.footer`
         margin: 0px;
         font-style: normal;
         font-weight: normal;
-        background-color: white;    
+        background-color: ${colors.white};  
     }
     .follow{
         font-size: 50px;
@@ -45,7 +45,7 @@ export const FooterForum = styled.footer`
         margin: 0px;
         font-style: normal;
         font-weight: normal;
-        background-color: white;
+        background-color: ${colors.white};
     }
     a{
         text-decoration: none;

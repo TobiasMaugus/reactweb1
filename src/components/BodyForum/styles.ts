@@ -20,7 +20,7 @@ export const BodyForum = styled.main`
     vertical-align: middle;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: #aeaeae;
+    background-color: ${colors.bgtables};
     width: 33,3%;   
     padding-left: 50px;
     padding-right: 50px;
@@ -28,6 +28,6 @@ export const BodyForum = styled.main`
 
 .tableforun caption{
     font-size: 40px;
-    text-decoration: underline #4B0F83;
+    text-decoration: underline ${colors.roxo};
 }
 `

@@ -6,7 +6,7 @@ export const BodyPlanos = styled.main`
 .form{
     background-color: ${colors.white};
     font-size: 30px;
-    color: #000000;
+    color: ${colors.black};
     font-family: 'Teko', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -14,12 +14,12 @@ export const BodyPlanos = styled.main`
 .form legend{
     font-size: 50px;
     font-style: bold;
-    text-decoration: underline #4B0F83;
+    text-decoration: underline ${colors.roxo};
     background-color: ${colors.white};
 }
 .botao{
     font-size: 27px;
-    color: #000000;
+    color: ${colors.black};
     font-family: 'Teko', sans-serif;
     font-style: normal;
     font-weight: normal;
