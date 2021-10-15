@@ -7,7 +7,7 @@ const HeaderPremium = () => {
         <picture className="logo">
             <img src={logo} alt="Logo TM" width="150" height="120"  />
         </picture>
-        <S.A href ="/" target="_self">
+        <S.A href ="home" target="_self">
             <h1 className="premium">Home</h1>
         </S.A>
         <h1 className="pesquisar">Pesquisar:</h1>
