@@ -59,6 +59,9 @@ h2{
     text-align: center;
     margin-top: 0;
 }
+.senha{
+    margin-left: 525px;    
+}
 
 
 @media (max-width: 1108px) {
