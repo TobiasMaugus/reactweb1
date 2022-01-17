@@ -9,16 +9,16 @@ const BodyForum = () => {
             </caption>
             <thead>
                 <tr>
-                    <th>Nome do fórun</th>
-                    <th>Nome do criador</th>
+                    <th></th>
+                    {/* <th>Nome do criador</th> */}
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Fórun 1</td>
-                    <td>Nome 1</td>
+                    <td></td>
+                    {/* <td>Nome 1</td> */}
                 </tr>
-                <tr>
+                {/* <tr>
                     <td>Fórun 2</td>
                     <td>Nome 2</td>
                 </tr>
@@ -36,8 +36,8 @@ const BodyForum = () => {
                 </tr>
                 <tr>
                     <td>Fórun 6</td>
-                    <td>Nome 6</td>
-                </tr>
+                    <td>Nome 6</td> */}
+                {/* </tr> */}
             </tbody>
         </table>
     </main>
