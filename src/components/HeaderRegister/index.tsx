@@ -1,17 +1,17 @@
 import * as S from './styles';
 import logo from 'assets/img/logo.png';
-const HeaderLogin = () => {
-    return(<S.HeaderLogin> 
-        <S.A href ="/register" target="_self">
-        <h1 className="anime">REGISTRAR</h1> 
+const HeaderRegister = () => {
+    return(<S.HeaderRegister> 
+        <S.A href ="/login" target="_self">
+        <h1 className="anime">LOGIN</h1> 
         </S.A> 
         <picture className="logo">
             <img src={logo} alt="Logo TM" width="150" height="120" />
         </picture>  
         <S.A href ="/" target="_self">
-            <h1 className="premium">Voltar</h1>
+            <h1 className="premium">Home</h1>
         </S.A>
-    </S.HeaderLogin>)
+    </S.HeaderRegister>)
 }
 
-export default HeaderLogin
+export default HeaderRegister

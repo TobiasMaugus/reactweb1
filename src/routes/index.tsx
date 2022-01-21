@@ -5,10 +5,12 @@ import {Forum} from 'pages';
 import {Premium} from 'pages';
 import { Planos } from "pages";
 import { Login } from "pages";
+import { Register } from "pages";
 
 const Routes = () =>{
     return (<Switch>
         <Route path="/login" component = {Login} />;
+        <Route path="/register" component = {Register} />;
         <Route path="/suporte" component = {Suporte} />
         <Route path="/forum" component = {Forum} />
         <Route path="/premium" component = {Premium} />
