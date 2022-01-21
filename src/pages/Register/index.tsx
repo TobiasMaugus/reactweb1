@@ -10,14 +10,12 @@ import { AxiosError } from "axios";
 import { useHistory } from "react-router-dom";
 
 const Register = () => {
-  const [isLoading, setIsLoading] = useState(true);
   const { register, handleSubmit } = useForm();
   const history = useHistory();
 
   const handleRegister = useCallback(
     async (data) => {
       try {
-        setIsLoading(true);
         await apiUser.register(data);
         toast.success("Cadastro realizado com sucesso!");
         history.push("/login");
@@ -25,16 +23,11 @@ const Register = () => {
         const err = error as AxiosError;
         const msg = err.response?.data.errors.map((i: any) => i.message);
         toast.error(`Falha ao cadastrar! ${msg.join(" ")}`);
-      } finally {
-        setIsLoading(false);
       }
     },
     [history]
   );
 
-  useEffect(() => {
-    setIsLoading(false);
-  }, []);
 
   return (
     <>
