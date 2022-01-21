@@ -10,7 +10,9 @@ const Header = () => {
         <S.A href ="premium" target="_self">
             <h1 className="premium">Seja premium</h1>
         </S.A>
+        <S.A href ="login" target="_self">
         <h1 className="pesquisar">Login</h1>
+        </S.A>
     </S.Header>)
 }
 
