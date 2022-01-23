@@ -6,16 +6,22 @@ import {Premium} from 'pages';
 import { Planos } from "pages";
 import { Login } from "pages";
 import { Register } from "pages";
+import { AdmForuns } from "pages/Adm";
+
+import { PrivateRoute } from "./PrivateRoute";
 
 const Routes = () =>{
     return (<Switch>
-        <Route path="/login" component = {Login} />;
-        <Route path="/register" component = {Register} />;
-        <Route path="/suporte" component = {Suporte} />
-        <Route path="/forum" component = {Forum} />
-        <Route path="/premium" component = {Premium} />
-        <Route path="/planos" component = {Planos} />
-        <Route path="//" component = {Home} />
+
+        <PrivateRoute path="/adm" exact component={AdmForuns}/>
+
+        <Route path="/login" exact component = {Login} />;
+        <Route path="/register" exact component = {Register} />;
+        <Route path="/suporte" exact component = {Suporte} />
+        <Route path="/forum" exact component = {Forum} />
+        <Route path="/premium" exact component = {Premium} />
+        <Route path="/planos" exact component = {Planos} />
+        <Route path="//" exact component = {Home} />
     </Switch>)
 }
 export default Routes;
