@@ -21,12 +21,13 @@ const Forum = () =>{
     return (
         <>
         <Header />
-        <BodyForum/>
-        {foruns && foruns.map((item) =>
+        <BodyForum>
+        {foruns && foruns.map((item) =>(
         <Project key={item.id}>
             <h4>{item.nome_forun}</h4>
-        </Project> 
+        </Project>) 
         )}
+        </BodyForum>
         <FooterForum />
         </>
         )

@@ -1,6 +1,7 @@
+import { IProject } from 'interface/foruns.interfaces';
 import * as S from './styles';
 
-const BodyForum = () => {
+const BodyForum = ({children}: IProject) => {
     return(<S.BodyForum>
       <main>
         <table className="tableforun">
@@ -15,7 +16,7 @@ const BodyForum = () => {
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
+                    <td>{children}</td>
                     {/* <td>Nome 1</td> */}
                 </tr>
                 {/* <tr>
