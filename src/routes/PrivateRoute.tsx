@@ -1,3 +1,4 @@
+import { Loading } from "components";
 import { useAuth } from "hooks/auth";
 import React, { useCallback, useEffect, useState } from "react";
 import {
@@ -17,10 +18,12 @@ export function PrivateRoute({
   component: Component,
   ...rest
 }: PrivateRouteParams) {
+  const [isLoading, setIsLoading] = useState(true);
   const { token, loadUserStorageData } = useAuth();
 
   const fetchData = useCallback(async () => {
-    await loadUserStorageData();;
+    await loadUserStorageData();
+    setIsLoading(false);
   }, [loadUserStorageData]);
 
   useEffect(() => {
@@ -29,6 +32,9 @@ export function PrivateRoute({
 
   return (
     <>
+      {isLoading ? (
+        <Loading />
+      ) : (
         <Route
           {...rest}
           render={(props) =>
@@ -41,6 +47,7 @@ export function PrivateRoute({
             )
           }
         />
+      )}
     </>
   );
 }
