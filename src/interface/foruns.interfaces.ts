@@ -5,6 +5,6 @@ export interface IProject {
 }
 
 export interface IForunsData{
-    id: number
-    nome_forun: string
+    id?: number
+    nome_forun?: string
 }
