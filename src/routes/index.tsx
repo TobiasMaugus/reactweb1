@@ -7,6 +7,7 @@ import { Planos } from "pages";
 import { Login } from "pages";
 import { Register } from "pages";
 import { AdmForuns } from "pages/Adm";
+import { AdmForunsStore } from "pages";
 
 import { PrivateRoute } from "./PrivateRoute";
 
@@ -14,7 +15,8 @@ const Routes = () =>{
     return (<Switch>
 
         <PrivateRoute path="/adm" exact component={AdmForuns}/>
-
+        <PrivateRoute path="/adm/foruns/:id" exact component={AdmForunsStore}/>
+        
         <Route path="/login" exact component = {Login} />;
         <Route path="/register" exact component = {Register} />;
         <Route path="/suporte" exact component = {Suporte} />
