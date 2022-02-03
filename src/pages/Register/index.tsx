@@ -48,7 +48,7 @@ const Register = () => {
                 <FcLock />
                 <input
                   type="password"
-                  placeholder="senha"
+                  placeholder="password"
                   required
                   {...register("password")}
                 />

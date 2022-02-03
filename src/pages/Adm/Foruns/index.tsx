@@ -10,7 +10,6 @@ import { BsPencilSquare, BsTrash2 } from "react-icons/bs";
 import { useHistory } from "react-router-dom";
 import { confirmAlert } from "react-confirm-alert";
 import { toast } from "react-toastify";
-import { HeaderAdm } from "components/HeaderAdm/styles";
 
 const AdmForuns = () => {
   const [projects, setProjects] = useState<IForunsData[]>();
@@ -58,7 +57,7 @@ const AdmForuns = () => {
         <Loading />
       ) : (
         <>
-          <HeaderAdm />
+          <Header/>
           <S.Main>
             <div>
               <Button

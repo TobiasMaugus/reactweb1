@@ -49,7 +49,7 @@ const Login = () => {
                 <FcLock />
                 <input
                   type="password"
-                  placeholder="senha"
+                  placeholder="password"
                   required
                   {...register("password")}
                 />
