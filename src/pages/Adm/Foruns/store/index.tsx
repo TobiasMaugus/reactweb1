@@ -77,12 +77,12 @@ const ProjectStore = () => {
                 <FcUndo /> Voltar
               </Link>
               <div>
-                <label htmlFor="proj">Projeto: </label>
+                <label htmlFor="proj">Forum: </label>
                 <textarea
                   id="proj"
-                  placeholder="Descreva o seu projeto"
+                  placeholder="Descreva o seu forum"
                   required
-                  {...register("projeto")}
+                  {...register("nome_forun")}
                   value={projects?.nome_forun}
                   onChange={handleChange}
                 />

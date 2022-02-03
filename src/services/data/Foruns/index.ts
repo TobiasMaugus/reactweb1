@@ -6,7 +6,7 @@ class ForunData{
         return api.get<IForunsData[]>('/foruns')
     }
     store(data: IForunsData) {
-        return api.post(`/projetos`, data)
+        return api.post(`/foruns`, data)
     }
     show(id: number) {
         return api.get<IForunsData>(`/foruns/${id}`)
