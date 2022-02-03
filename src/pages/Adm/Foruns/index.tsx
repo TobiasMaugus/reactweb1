@@ -10,6 +10,7 @@ import { BsPencilSquare, BsTrash2 } from "react-icons/bs";
 import { useHistory } from "react-router-dom";
 import { confirmAlert } from "react-confirm-alert";
 import { toast } from "react-toastify";
+import { HeaderLogout } from "components";
 
 const AdmForuns = () => {
   const [projects, setProjects] = useState<IForunsData[]>();
@@ -57,7 +58,7 @@ const AdmForuns = () => {
         <Loading />
       ) : (
         <>
-          <Header/>
+          <HeaderLogout/>
           <S.Main>
             <div>
               <Button
