@@ -24,17 +24,17 @@ const ProjectStore = () => {
         setIsLoading(true);
         if (Number(id) > 0) {
           await apiForuns.update(Number(id), data);
-          toast.warning("Projeto atualizado com sucesso!");
+          toast.warning("Forum atualizado com sucesso!");
         } else {
           await apiForuns.store(data);
-          toast.success("Cadastro de projeto realizado!");
+          toast.success("Cadastro de forum realizado!");
         }
         history.push("/adm");
       } catch (error) {
         console.log(error);
         const err = error as AxiosError;
         const msg = err.response?.data.errors.map((i: any) => i.message);
-        toast.error(`Falha ao cadastrar o projeto! ${msg.join(" ")}`);
+        toast.error(`Falha ao cadastrar o forum! ${msg.join(" ")}`);
       } finally {
         setIsLoading(false);
       }
@@ -44,10 +44,11 @@ const ProjectStore = () => {
 
   const handleChange = useCallback(
     (e) => {
-      setProjects({...projects, [e.target.id]: e.target.nome_forum});
+      setProjects({...projects, [e.target.name]: e.target.value});
     },
     [projects]
   );
+
 
   useEffect(() => {
     if (Number(id) > 0) {
