@@ -43,7 +43,7 @@ const AdmForuns = () => {
             },
           },
           {
-            label: "Não",
+            label: "NÃO",
             onClick: () => console.log("não"),
           },
         ],
@@ -71,8 +71,8 @@ const AdmForuns = () => {
             <table>
               <thead>
                 <tr>
-                  <th>E-mail</th>
-                  <th>Projeto</th>
+                  <th>ID</th>
+                  <th>Fórum</th>
                   <th>Editar</th>
                   <th>Remover</th>
                 </tr>
